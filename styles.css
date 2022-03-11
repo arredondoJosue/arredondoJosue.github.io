@@ -23,6 +23,10 @@ body{
     grid-column: auto;
 }
 
+main{
+    margin-top: 100px;
+}
+
 /* ===== MENU BAR ===== */
 
 header{
@@ -91,7 +95,7 @@ ol li{
 /* ===== SIDE BAR ===== */
 
 #node-icon{
-    margin-top: 65rem;
+    margin-top: 70rem;
 }
 
 .left-list, .right-list{
@@ -339,13 +343,13 @@ h2{
     padding-left: 180px;
     padding-right: 180px;
     margin-bottom: 150px;
-    animation: fadeIn 2.5s ease-in 8s 1 alternate backwards; 
+    animation: fadeIn 2.5s ease-in 7s 1 alternate backwards; 
 }
 
 /* ==== ABOUT ME ==== */
 
 .content-heading{grid-area: head;}
-#about-para{grid-area: p;}
+.about-para{grid-area: p;}
 #about-pic{
     grid-area: img; 
     border-radius: 5px; 
@@ -421,7 +425,7 @@ h2{
 .card-container{
     border: 2px solid #ECE2D0;
     border-radius: 3px;
-    width: 30%;
+    width: 40%;
     height: 20%;
     /* font-size: 1em; */
 }
@@ -429,8 +433,6 @@ h2{
 .card-container:hover{
     box-shadow: 10px 10px #ECE2D0;
 }
-
-
 
 .card-body{
     padding: 5px;
