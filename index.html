@@ -5,8 +5,251 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Josue Arredondo Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 <body>
-    <h1>Josue Arredondo</h1>
+    <header>
+        <nav class="menu-bar">
+            <div class="my-logo">
+                <img src="/Untitled_Artwork.png" width="75px" height="50px">
+            </div>
+            <div class="menu-items">
+                <ol>
+                    <li class="nav-item"><a class="list-item" href="#about">About</a></li>
+                    <li class="nav-item"><a class="list-item" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="list-item" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="list-item" href="#contact">Contact</a></li>
+                </ol>
+            </div>
+            <div class="nav-resume">
+                <a href="https://www.linkedin.com/in/josue-arredondo/" class="resume-button">Resume</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+    
+    <div class="right-sidebar">
+        <ul class="right-ul">
+            <li class="right-list reveal" id="node-icon"><a class="right-list-item" href="#"><i class="devicon-nodejs-plain"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-html5-plain-wordmark"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-css3-plain-wordmark"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-python-plain"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-r-plain"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-rstudio-plain"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-git-plain-wordmark"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-express-original"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-react-original-wordmark"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-heroku-line-wordmark"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-postgresql-plain"></i></a></li>
+            <li class="right-list reveal"><a class="right-list-item" href="#"><i class="devicon-jira-plain-wordmark" id="jira"></i></a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="main-cards" id="landing">
+            <div class="greeting-container">
+                <h4 class="greeting" id="hello">Hi.</h4>
+                <h4 class="greeting" id="my-name-is">My name is</h4>
+            </div>
+            <article>
+                <h1 id="my-name">Josue Arredondo.</h1>
+                <h1 class="big-statement">I build solutions.</h1>
+                <p class="hero-statement">I'm a solutions architect specializing in improving the employee experience. Currently, I'm helping build products at <a class="important" href="https://decision-wise.com">decisionwise</a> that aid organizational leaders make data-informed decisions.</p>
+            </article>
+        </section>
+        <section class="main-cards reveal" id="about">
+            <h2 class="content-heading reveal">About Me</h2>
+            <p id="about-para reveal">Greetings, friend. My name is Josue (pronounced: Hoe-Sue-Way) and I love helping create solutions that make people's lives easier and better. This desire to help others and my love for technology guided me to web development.</p>
+            <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+            <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+            <img class="reveal" id="about-pic" src="/Git Hub .png" alt="picture-of-me">
+        </section>
+        <section class="main-cards reveal" id="skills">
+            <h2 class="content-heading reveal">What I Can Do</h2>
+            
+            <div class="skills-list reveal">
+                <h6 class="skills-heading reveal">LANGUAGES</h6>
+                <ul class="skills-list reveal">
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>PostgressSQL</li>
+                </ul>
+            </div>
+
+            <div class="skills-list reveal">
+                <h6 class="skills-heading reveal">TOOLS</h6>
+                <ul class="skills-list reveal">
+                    <li>RStudio</li>
+                    <li>Git & GitHub</li>
+                    <li>Heroku</li>
+                    <li>Postman</li>
+                    <li>Jira</li>
+                </ul>
+            </div>
+            
+            <div class="skills-list reveal">
+                <h6 class="skills-heading reveal">DESIGN</h6>
+                <ul class="skills-list reveal"> 
+                    <li>Figma</li>
+                    <li>ProCreate</li>
+                    <li>Affinity Designer</li>
+                    <li>Wireframing</li>
+                </ul>
+            </div>
+            
+            <div class="skills-list reveal">
+                <h6 class="skills-heading reveal">FRAMEWORKS</h6>
+                <ul class="skills-list reveal">
+                    <li>Node</li>
+                    <li>React</li>
+                    <li>Express</li>
+                </ul>
+            </div>
+            
+        </section>
+        <section class="main-cards reveal" id="projects">
+            <h2 class="content-heading reveal">
+                Things I've Made
+                <!-- <span class="material-icons-outlined code">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg> -->
+                    <!-- code -->
+                    </span>
+            </h2> 
+            <div class="projects-container reveal">
+
+                <div class="card-container">
+                    <div class="car-stack">
+                        <h6 class="card-heading">
+                            <span class="material-icons-outlined">
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#ECE2D0"><g><rect fill="none" height="24" width="24"/></g><g><g><g><path d="M21.67,18.17l-5.3-5.3h-0.99l-2.54,2.54v0.99l5.3,5.3c0.39,0.39,1.02,0.39,1.41,0l2.12-2.12 C22.06,19.2,22.06,18.56,21.67,18.17z M18.84,19.59l-4.24-4.24l0.71-0.71l4.24,4.24L18.84,19.59z"/></g><g><path d="M17.34,10.19l1.41-1.41l2.12,2.12c1.17-1.17,1.17-3.07,0-4.24l-3.54-3.54l-1.41,1.41V1.71L15.22,1l-3.54,3.54l0.71,0.71 h2.83l-1.41,1.41l1.06,1.06l-2.89,2.89L7.85,6.48V5.06L4.83,2.04L2,4.87l3.03,3.03h1.41l4.13,4.13l-0.85,0.85H7.6l-5.3,5.3 c-0.39,0.39-0.39,1.02,0,1.41l2.12,2.12c0.39,0.39,1.02,0.39,1.41,0l5.3-5.3v-2.12l5.15-5.15L17.34,10.19z M9.36,15.34 l-4.24,4.24l-0.71-0.71l4.24-4.24l0,0L9.36,15.34L9.36,15.34z"/></g></g></g></svg>
+                                <!-- handyman -->
+                            </span>
+                            SA-TOOLBOX
+                        </h6>
+                        <div class="card-body" id="card-one">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card-container">
+                    <div class="car-stack">
+                        <h6 class="card-heading">
+                            SAMPLE PROJECT
+                        </h6>
+                        <div class="card-body" id="card-two">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="car-stack">
+                        <h6 class="card-heading">
+                            SAMPLE PROJECT
+                        </h6>
+                        <div class="card-body" id="card-three">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="car-stack">
+                        <h6 class="card-heading">
+                            SAMPLE PROJECT
+                        </h6>
+                        <div class="card-body" id="card-three">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="car-stack">
+                        <h6 class="card-heading">
+                            SAMPLE PROJECT
+                        </h6>
+                        <div class="card-body" id="card-three">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="car-stack">
+                        <h6 class="card-heading">
+                            SAMPLE PROJECT
+                        </h6>
+                        <div class="card-body" id="card-three">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, dolor molestiae dignissimos at, quisquam nemo, ipsam officia reiciendis illum dolores beatae delectus aut veritatis. Non odio pariatur ipsum numquam.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+        <section class="main-cards" id="contact">
+            <h2 class="content-heading contact-heading">Want to talk?</h2>
+
+            <!-- <div class="contact-items">
+                <p>Although I'm not actively seeking other opportunities, I'm always open to hear what others have to offer. I'm just an email away!</p>
+                <a class="email-me" href="mailto:josue.e.arredondo@gmail.com">Send me a message</a> 
+            </div> -->
+            <div class="contact-items">
+                <ul>
+                    <li>
+                        <p>Although I'm not actively seeking other opportunities, I'm always open to hear what others have to offer. I'm just an email away!</p>
+                    </li>
+                    <li>
+                        <a class="email-me" href="mailto:josue.e.arredondo@gmail.com">Send me a message</a> 
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="left-sidebar">
+            <a class="left-list-item"href="https://www.linkedin.com/in/josue-arredondo/"><i class="devicon-linkedin-plain"></i></a>
+            <a class="left-list-item"href="https://github.com/arredondoJosue/"><i class="devicon-github-original"></i></a>
+            <!-- <ul>
+                <li class="left-list"><a class="left-list-item"href="#"><i class="devicon-linkedin-plain"></i></a></li>
+                <li class="left-list"><a class="left-list-item"href="#"><i class="devicon-github-original"></i></a></li>
+            </ul> -->
+        </div>
+    </footer>
+</div>
+
+<script>
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();
+</script>
 </body>
 </html>
